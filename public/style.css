@@ -1,0 +1,49 @@
+body {
+  height: 100%;
+  background-image: url("http://s20.postimg.org/s0qx6i78t/Calculation_Formulae.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#display-text {
+  font-size: 36px;
+}
+
+.display-well {
+  -webkit-box-shadow: inset 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: inset 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+  background-color: #e6d8bd;
+  height: 80px;
+}
+
+.calc-container {
+  border: 1px solid black;
+  border-radius: 5%;
+  box-shadow: 15px 15px 15px;
+  margin-top: 50px;
+  padding: 30px;
+  background-color: #d3d3d3;
+}
+
+.middle-rows {
+  border-radius: 0 !important;
+}
+
+#allClear {
+  border-bottom-left-radius: 0;
+}
+
+#divide {
+  border-bottom-right-radius: 0;
+}
+
+#equals {
+  border-top-right-radius: 0;
+}
+
+#zero {
+  border-top-left-radius: 0;
+}
